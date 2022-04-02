@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body >
+	<h1 align="center">***Student Registration Form ***</h1>
+	<form method="post" action="StudentRegistration">
+		<table  align="center">
+			<tr>
+				<td><label for="sname"> User Name </label></td>
+				<td><input type="text" name="sname" /></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="spass"> Enter Your Password :</label></td>
+				<td><input type="text" name="spass" /></td> 
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="cpass"> Conform Your Password :</label></td>
+				<td><input type="text" name="cpass" /></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><lable for="gender">Gender</lable></td>
+				<td>
+					<input type="radio" name="gender" Value="Male" /> M 
+					<input type="radio" name="gender" Value="female" /> F 
+					<input type="radio" name="gender" Value="other" /> Other
+				</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="scno"> Ph. No. :</label></td>
+				<td><input type="text" name="scno" /></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="semail"> Email :</label></td>
+				<td><input type="text" name="semail" /></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="sclfn"> Education :</label></td>
+				<td><input type="checkbox" name="sclfn" value="scc" /> <strong>
+						SSC </strong> <input type="checkbox" name="sclfn" value="inter" /><strong>
+						Inter </strong> <input type="checkbox" name="sclfn" value="g" /><strong>
+						Graduate </strong> <input type="checkbox" name="sclfn" value="Pg" /> <strong>
+						Post Graduate </strong></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="sdob"> Dob :</label></td>
+				<td><input type="text" name="sdob" /></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="sadrs"> Address :</label></td>
+				<td><input type="texarea" name="sadrs" /></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td><label for="sdoc"> Documents :</label></td>
+				<td><Select>
+						<option value="SSC"> SSC </option>
+						<option value="Inter"> Inter </option>
+						<option value="Graduate"> Graduate </option>
+						<option value="Post_Graduate"> Post Graduate </option>
+
+				</Select></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" name="submit"value="Register" />
+				</td>
+			</tr>
+
+		</table>
+	</form>
+
+</body>
+</html>
