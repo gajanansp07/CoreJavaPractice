@@ -1,0 +1,20 @@
+package multiThreadingExample;
+
+public class SumofN_Numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+class Custom extends Thread
+{
+	public void run() {
+		for(int i=1;i<20;i++)
+		{
+			System.out.println("Custom thead 1 : "+i);
+		}
+		
+	}
+}
