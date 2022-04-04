@@ -1,0 +1,10 @@
+package syntaxCheckingandExam;
+
+public class FeedingSedule {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
