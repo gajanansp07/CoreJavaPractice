@@ -1,0 +1,14 @@
+package arrayExaple;
+
+public class BubbleShort {
+
+	public static void main(String[] args) {
+		// Bubble short
+		int[] arr = {50,60,32,456,34,10,30,50,28,22,40,50};
+		System.out.println("Befor shorting");
+		for(int x:arr)
+			System.out.print(x+" ");
+
+	}
+
+}
